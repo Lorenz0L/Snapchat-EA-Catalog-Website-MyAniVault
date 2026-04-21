@@ -1,6 +1,8 @@
 # SEA Stage 2 - Data Catalog Project
 
-# MyAniVault | An anime catalog of animes I've watched!
+# MyAniVault | An anime catalog of some favorite animes I've watched!
+
+[Website](https://lorenz0l.github.io/Snapchat-EA-Catalog-Website/)
 
 A catalog website built for the Snap Engineering Academy Stage 2 project assessment.
 
