@@ -32,7 +32,6 @@ const animeData = [
     episodes: 87,
     studio: "MAPPA / Wit Studio",
     status: "Completed",
-    description: "Humanity lives inside cities surrounded by enormous walls protecting them from Titans—giant humanoid creatures who devour humans.",
     image: "https://cdn.myanimelist.net/images/anime/10/47347.jpg"
   },
   {
@@ -43,7 +42,6 @@ const animeData = [
     episodes: 64,
     studio: "Bones",
     status: "Completed",
-    description: "Two brothers search for a Philosopher's Stone to restore their bodies after a failed alchemical ritual.",
     image: "https://cdn.myanimelist.net/images/anime/1223/96541.jpg"
   },
   {
@@ -54,7 +52,6 @@ const animeData = [
     episodes: 37,
     studio: "Madhouse",
     status: "Completed",
-    description: "A high school student discovers a supernatural notebook that allows him to kill anyone by writing their name in it.",
     image: "https://cdn.myanimelist.net/images/anime/9/9453.jpg"
   },
   {
@@ -65,7 +62,6 @@ const animeData = [
     episodes: 44,
     studio: "ufotable",
     status: "Ongoing",
-    description: "Tanjiro Kamado becomes a demon slayer after his family is slaughtered and his sister Nezuko is turned into a demon.",
     image: "https://cdn.myanimelist.net/images/anime/1286/99889.jpg"
   },
   {
@@ -76,7 +72,6 @@ const animeData = [
     episodes: 24,
     studio: "8bit",
     status: "Ongoing",
-    description: "300 of Japan's best strikers compete in a radical training program to create the world's greatest egotistical striker for the national team.",
     image: "https://myanimelist.net/images/anime/1258/126929.jpg"
   },
   {
@@ -87,7 +82,6 @@ const animeData = [
     episodes: 148,
     studio: "Madhouse",
     status: "Completed",
-    description: "Gon Freecss sets out to become a Hunter and find his father, discovering a world of danger and wonder.",
     image: "https://cdn.myanimelist.net/images/anime/11/33657.jpg"
   },
   {
@@ -98,7 +92,6 @@ const animeData = [
     episodes: 48,
     studio: "MAPPA",
     status: "Ongoing",
-    description: "Yuji Itadori swallows a cursed finger and becomes host to a powerful curse, joining a secret organization of sorcerers.",
     image: "https://cdn.myanimelist.net/images/anime/1171/109222.jpg"
   },
   {
@@ -109,7 +102,6 @@ const animeData = [
     episodes: 1,
     studio: "Studio Ghibli",
     status: "Completed",
-    description: "A young girl becomes trapped in a mysterious spirit world and must work to free herself and her parents.",
     image: "https://cdn.myanimelist.net/images/anime/6/79597.jpg"
   },
   {
@@ -120,7 +112,6 @@ const animeData = [
     episodes: 152,
     studio: "David Production",
     status: "Ongoing",
-    description: "The multigenerational saga of the Joestar family, each member destined to clash with supernatural evil using unique abilities.",
     image: "https://cdn.myanimelist.net/images/anime/3/40409.jpg"
   },
   {
@@ -131,7 +122,6 @@ const animeData = [
     episodes: 22,
     studio: "A-1 Pictures",
     status: "Completed",
-    description: "A piano prodigy who can no longer hear the music he plays meets a free-spirited violinist who changes his life.",
     image: "https://cdn.myanimelist.net/images/anime/3/67177.jpg"
   },
   {
@@ -142,7 +132,6 @@ const animeData = [
     episodes: 85,
     studio: "Production I.G",
     status: "Completed",
-    description: "A short boy with a huge passion for volleyball joins his high school team and pushes himself to reach the top.",
     image: "https://cdn.myanimelist.net/images/anime/7/76014.jpg"
   },
   {
@@ -153,7 +142,6 @@ const animeData = [
     episodes: 26,
     studio: "Gainax",
     status: "Completed",
-    description: "Teenagers pilot giant mechs to fight monstrous beings called Angels, while dealing with deep psychological trauma.",
     image: "https://myanimelist.net/images/anime/1314/108941.jpg"
   },
   {
@@ -164,7 +152,6 @@ const animeData = [
     episodes: 138,
     studio: "Bones",
     status: "Completed",
-    description: "In a world where most people have superpowers, a boy born without abilities dreams of becoming the greatest hero.",
     image: "https://cdn.myanimelist.net/images/anime/10/78745.jpg"
   },
   {
@@ -175,7 +162,6 @@ const animeData = [
     episodes: 220,
     studio: "Pierrot",
     status: "Completed",
-    description: "A young ninja with a powerful demon fox sealed inside him dreams of becoming the greatest ninja and earning the respect of his village.",
     image: "https://cdn.myanimelist.net/images/anime/13/17405.jpg"
   },
   {
@@ -186,7 +172,6 @@ const animeData = [
     episodes: 24,
     studio: "Kyoto Animation",
     status: "Completed",
-    description: "Tomoya navigates the challenges of adult life after high school—love, work, loss, and family.",
     image: "https://cdn.myanimelist.net/images/anime/1299/110774.jpg"
   },
   {
@@ -197,7 +182,6 @@ const animeData = [
     episodes: 50,
     studio: "White Fox",
     status: "Ongoing",
-    description: "A young man is transported to a fantasy world and discovers he has the ability to return from death.",
     image: "https://cdn.myanimelist.net/images/anime/11/79410.jpg"
   },
   {
@@ -208,7 +192,6 @@ const animeData = [
     episodes: 12,
     studio: "MAPPA",
     status: "Ongoing",
-    description: "Denji, a young devil hunter, merges with his chainsaw devil and joins a government agency hunting dangerous devils.",
     image: "https://cdn.myanimelist.net/images/anime/1806/126216.jpg"
   },
   {
@@ -219,7 +202,6 @@ const animeData = [
     episodes: 24,
     studio: "Madhouse",
     status: "Completed",
-    description: "A parasite that fails to reach a teen's brain instead bonds with his hand, forcing them to coexist against other parasites.",
     image: "https://cdn.myanimelist.net/images/anime/3/73178.jpg"
   }
 ];
@@ -268,7 +250,7 @@ function getGenreColor(genre) {
   return colors[genre] || "linear-gradient(135deg, #555, #333)";
 }
 
-// This function adds cards the page to display the data in the array
+
 function showCards() {
   let displayData = animeData;
 
